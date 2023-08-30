@@ -7,13 +7,14 @@ import {
     Text
 } from '@chakra-ui/react'
 
+
 const Toy = () => {
 
   const [data, setData] = useState([]);
   const carousel = useRef(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/static/shoes.json')
+    fetch('http://localhost:3000/static/toy.json')
       .then((response) => response.json())
       .then(setData);
   }, []);
@@ -56,8 +57,8 @@ const Toy = () => {
   alignItems='center'
   justifyContent='center'
   bg='#e1e1e1' 
-  py={8}>
-    <Box maxW='85vw'>
+  py={12}>
+    <Box maxW='90vw'>
       <Box display='flex' overflowX='hidden' scrollBehavior='smooth' ref={carousel}>
         {data.map((item) => {
           const {id, name, price, oldPrice, image} = item;
@@ -66,11 +67,11 @@ const Toy = () => {
               bg='#fff'
               m='10px'
               p='10px'
-              w='280px'
+              w='305px'
               borderRadius={4}
               flex='none'
               key={id}>
-                <Box>
+                <Box w='285px' h='285px'>
                   <Image
                   src={image} 
                   alt={name} 
@@ -112,7 +113,7 @@ const Toy = () => {
           );
         })}
       </Box>
-      <Box w='100%' textAlign='center'>
+      <Box w='100%' textAlign='center' paddingTop={8} >
         <Button 
         bg='transparent'
         transform='rotate(180deg)'

@@ -26,9 +26,9 @@ const Header = () => {
                     <Image w="220px" src='./assets/logo-removebg-preview.png' alt='imagem' />
                 </Box>
                 <Box display="flex" gap="1rem">
-                    <Link  _hover={{ color: '#005D98', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}> Ajuda</Link>
-                    <Link  _hover={{ color: '#005D98', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Entrar</Link>
-                    <Link  _hover={{ color: '#005D98', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Junte-se a nós</Link>
+                    <Link  _hover={{ color: '#CFD0D0', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}> Ajuda</Link>
+                    <Link  _hover={{ color: '#CFD0D0', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Entrar</Link>
+                    <Link  _hover={{ color: '#CFD0D0', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Junte-se a nós</Link>
                 </Box>
             </Flex>
         </Flex>
@@ -45,10 +45,10 @@ const Header = () => {
             display='flex'
             gap='2rem'
             marginLeft='40px'>
-                <Link  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }} >Lançamentos</Link>
+                <Link  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }} >Higiene e Limpeza</Link>
                 <Link  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Infantil</Link>
-                <Link  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Eletrônicos</Link>
-                <Link  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Ofertas da semana</Link>
+                <Link  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Escritório e Papelaria</Link>
+                <Link  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Embalagens e Descartáveis</Link>
             </Box>
             <Box display='flex' gap='2rem'>
                 <Icon as={AiOutlineHeart} boxSize={7} color="#fff" />
