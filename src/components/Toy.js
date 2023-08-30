@@ -13,7 +13,7 @@ const Toy = () => {
   const carousel = useRef(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/static/shoes.json')
+    fetch('https://illustrious-cocada-dc5382.netlify.app/static/shoes.json')
       .then((response) => response.json())
       .then(setData);
   }, []);

@@ -11,10 +11,10 @@ const index = () => {
   return (
 
     <>
-        <Header />
-        <Main />
-        <Cards />
-        <Toy />
+      <Header />
+      <Main />
+      <Cards />
+      <Toy />
     </>
     
   )
