@@ -17,6 +17,7 @@ const Footer = () => {
        justifyContent='space-around'
        gap={14}
        py={8} 
+       flexWrap='wrap'
       >
             <Box
             display='flex'
