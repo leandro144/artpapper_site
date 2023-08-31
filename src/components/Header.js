@@ -1,7 +1,10 @@
-import { Box, Flex, Image, Link, Icon, Text } from '@chakra-ui/react'
+import { Box, Flex, Image, Link, Icon, base } from '@chakra-ui/react'
 import { AiOutlineHeart } from 'react-icons/ai';
 import { BsBag } from 'react-icons/bs';
 import React from 'react'
+import Mobile from '@/components/Mobile'
+
+// display={{base: 'none', md: 'flex'}} //
 
 
 const Header = () => {
@@ -32,7 +35,7 @@ const Header = () => {
                 </Box>
             </Flex>
         </Flex>
-        <Flex 
+            <Flex 
             bg="#3874ff"
             w="100%"
             padding='.725rem 2%'
@@ -40,9 +43,9 @@ const Header = () => {
             alignItems='center'
             fontSize="1rem"
             color='#fff'
-        >
+        > 
             <Box 
-            display='flex'
+            display={{base: 'none', md: 'flex'}}
             gap='2rem'
             marginLeft='40px'>
                 <Link  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }} >Higiene e Limpeza</Link>
@@ -50,10 +53,11 @@ const Header = () => {
                 <Link  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Escritório e Papelaria</Link>
                 <Link  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Embalagens e Descartáveis</Link>
             </Box>
+            <Mobile />
             <Box display='flex' gap='2rem'>
                 <Icon as={AiOutlineHeart} boxSize={7} color="#fff" />
                 <Icon as={BsBag} boxSize={6} color="#fff" />
-            </Box>
+            </Box>  
         </Flex>
     </Box>
        

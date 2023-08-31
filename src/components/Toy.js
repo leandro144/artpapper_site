@@ -56,7 +56,7 @@ const Toy = () => {
   display='flex'
   alignItems='center'
   justifyContent='center'
-  bg='#e1e1e1' 
+  bg='gray.200' 
   py={12}>
     <Box maxW='90vw'>
       <Box display='flex' overflowX='hidden' scrollBehavior='smooth' ref={carousel}>

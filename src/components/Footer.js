@@ -88,10 +88,10 @@ const Footer = () => {
                     <Icon as={BsTwitter} boxSize={8} cursor='pointer' color='#005D98' />
                 </Box>
             </Box>
-       </Flex>
-       <Box py={4}>
-            <Box w='91%' h='2px' bg='#C2C2C2' display='flex' margin='0 auto'></Box>
-       </Box>
+        </Flex>
+        <Box as="footer" p={4} bg="#005D98" color='#fff' textAlign="center">
+            <Text>&copy;{new Date().getFullYear()} Leandro Castro. Todos os direitos reservados.</Text>
+        </Box>
        
     </>
   )
