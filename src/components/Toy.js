@@ -14,7 +14,7 @@ const Toy = () => {
   const carousel = useRef(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/static/toy.json')
+    fetch('https://salmon-bull-slip.cyclic.cloud/Toys')
       .then((response) => response.json())
       .then(setData);
   }, []);

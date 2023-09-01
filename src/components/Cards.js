@@ -19,12 +19,12 @@ const Cards = () => {
   useEffect(() => {
     AOS.init();
   }, []);
-  
+
   return (
     <>
       <Flex py={12} justifyContent='center' gap={8} flexWrap='wrap'>
         <Card 
-          w='350px'
+          w='351px'
           borderRadius='1rem'
           data-aos="fade-up"
           data-aos-duration="3000"
