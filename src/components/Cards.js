@@ -46,7 +46,7 @@ const Cards = () => {
            >
             <Heading fontSize='1.5rem' >Iphone 14 Pro</Heading>
             <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, laudantium?</Text>
-            <Text fontWeight="bold" color='blue.600' fontSize='1.5rem'>$ 4,990</Text>
+            <Text fontWeight="bold" color='blue.600' fontSize='1.5rem'>$ 5,990</Text>
             <Text color='#00AD1D'>20% off</Text>
             <Button colorScheme='blue' w='150px'>
               Comprar agora
