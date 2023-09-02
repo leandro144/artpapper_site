@@ -8,5 +8,3 @@ const theme = extendTheme({
     xl: "80em", // 1280px
   },
 });
-
-export default theme;
