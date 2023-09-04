@@ -31,7 +31,6 @@ const Header = () => {
                 <Box display="flex" gap="1rem">
                     <Link  _hover={{ color: '#CFD0D0', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}> Ajuda</Link>
                     <Link  _hover={{ color: '#CFD0D0', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Entrar</Link>
-                    <Link  _hover={{ color: '#CFD0D0', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Junte-se a nós</Link>
                 </Box>
             </Flex>
         </Flex>

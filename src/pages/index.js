@@ -4,6 +4,7 @@ import Main from '@/components/Main'
 import Toy from '@/components/Toy'
 import Footer from '@/components/Footer'
 import React from 'react'
+import CardEletronic from '@/components/CardEletronic'
 
 
 const index = () => {
@@ -16,6 +17,7 @@ const index = () => {
       <Main />
       <Cards />
       <Toy />
+      <CardEletronic />
       <Footer />
     </>
     
