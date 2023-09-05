@@ -1,5 +1,6 @@
 import { Box, Flex, CardBody, Text, Heading, Button, Card, Image } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
+import CountdownTimer from './CountdownTimer';
 
 const CardEletronic = () => {
 
@@ -14,12 +15,13 @@ const CardEletronic = () => {
   return (
     <>
     <Box my='2rem' px='5%'> 
-     <Box>Ofertas Imperdiveis</Box>
+     <Box>
+        <CountdownTimer />
+     </Box>
         <Box 
         border='2px solid #ccc' 
         w='100%' 
         py={8} 
-        px='2%' 
         display='flex'
         flexWrap='wrap'
         justifyContent='center'
@@ -38,7 +40,7 @@ const CardEletronic = () => {
                 alignItems='center'
                 borderRadius='1rem'
                 >
-                <Image src={image} w="250px" alt='imagem ' />
+                <Image src={image} w="200px" alt='imagem ' />
                 </Box>
                 <Flex>
                 <CardBody 
