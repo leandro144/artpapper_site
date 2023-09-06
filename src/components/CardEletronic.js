@@ -27,7 +27,7 @@ const CardEletronic = () => {
         justifyContent='center'
         gap={12}>
             {data.map((item) => {
-                const {id, name, price, image} = item;
+                const {id, name, price, image, Title} = item;
                 return(
             <Card 
             w='350px'
@@ -40,7 +40,7 @@ const CardEletronic = () => {
                 alignItems='center'
                 borderRadius='1rem'
                 >
-                <Image src={image} w="200px" alt='imagem ' />
+                <Image src={image} w="200px" h='25vh' alt='imagem ' />
                 </Box>
                 <Flex>
                 <CardBody 
@@ -49,7 +49,7 @@ const CardEletronic = () => {
                 gap='10px'
                 >
                     <Heading fontSize='1.5rem' >{name}</Heading>
-                    <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, laudantium?</Text>
+                    <Text>{Title}</Text>
                     <Text fontWeight="bold" color='blue.600' fontSize='1.5rem'>{price}</Text>
                     <Text color='#00AD1D'>20% off</Text>
                     <Button colorScheme='blue' w='150px'>

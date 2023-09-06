@@ -106,7 +106,7 @@ const Toy = () => {
                     fontSize='1.2rem'
                     fontWeight='bold'
                     bg='#ff7e3b'
-                    marginTop='10px'>U$ {price}</Text>
+                    marginTop='10px'>R$ {price}</Text>
                   </Text>
                 </Box>
               </Box>
