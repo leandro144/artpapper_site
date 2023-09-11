@@ -7,7 +7,7 @@ const CardEletronic = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3000/static/shoes.json')
+        fetch('http://localhost:3000/static/eletronic.json')
           .then((response) => response.json())
           .then(setData);
       }, []);
@@ -19,18 +19,17 @@ const CardEletronic = () => {
         <CountdownTimer />
      </Box>
         <Box 
-        border='2px solid #ccc' 
         w='100%' 
         py={8} 
         display='flex'
         flexWrap='wrap'
         justifyContent='center'
-        gap={12}>
+        gap={16}>
             {data.map((item) => {
                 const {id, name, price, image, Title} = item;
                 return(
             <Card 
-            w='350px'
+            w='325px'
             borderRadius='1rem'
             border='2px solid #ccc'
             key={id}>

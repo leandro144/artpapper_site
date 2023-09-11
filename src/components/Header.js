@@ -26,7 +26,9 @@ const Header = () => {
                 padding="0 2%"
             >
                 <Box>
-                    <Image w="220px" src='./assets/logo-removebg-preview.png' alt='imagem' />
+                    <Link href='/'>
+                        <Image w="220px" src='./assets/logo-removebg-preview.png' alt='imagem' />
+                    </Link>
                 </Box>
                 <Box display="flex" gap="1rem">
                     <Link  _hover={{ color: '#CFD0D0', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}> Ajuda</Link>
@@ -50,7 +52,7 @@ const Header = () => {
                 <Link  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }} >Higiene e Limpeza</Link>
                 <Link  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Infantil</Link>
                 <Link  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Escritório e Papelaria</Link>
-                <Link  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Embalagens e Descartáveis</Link>
+                <Link href='/eletronic'  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Eletrônicos</Link>
             </Box>
             <Mobile />
             <Box display='flex' gap='2rem'>
