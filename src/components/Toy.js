@@ -71,7 +71,7 @@ const Toy = () => {
               borderRadius={4}
               flex='none'
               key={id}>
-                <Link href={link}>
+                <Link href={link} cursor='pointer'>
                 <Box w='285px' h='285px'>
                   <Image
                   src={image} 
