@@ -10,7 +10,7 @@ const Main = () => {
             <Image
              src='./assets/1RMV.PNG'
              w='100%'
-             h={{base: '85vh', md: '100vh'}}
+             h={{base: '70vh', md: '100vh'}}
              pt='123px'
              alt='imagem' />
         </Box>

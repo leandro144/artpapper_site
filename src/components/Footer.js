@@ -3,8 +3,7 @@ import {
     Flex, 
     Text, 
     Heading,
-    Box,
-    Divider
+    Box
   } 
   from '@chakra-ui/react'
 import React from 'react'
@@ -14,10 +13,10 @@ const Footer = () => {
   return (
     <>
        <Flex 
-       justifyContent='space-around'
        gap={14}
        py={8} 
-       flexWrap='wrap'
+       flexDir={{base: 'column', md: 'row'}}
+       justifyContent={{base: 'center', md: 'space-around'}}
       >
             <Box
             display='flex'
