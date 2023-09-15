@@ -1,10 +1,11 @@
-import { useEffect, useState, useRef} from 'react';
+import { useEffect, useState, useRef, createElement} from 'react';
 import { 
     Box,  
     Button,  
     Heading,
     Image,
-    Text
+    Text,
+    Link
 } from '@chakra-ui/react'
 
 
@@ -31,7 +32,6 @@ const Toy = () => {
   };
 
   if (!data || !data.length) return null;
-
 
   return (
     <>
@@ -61,7 +61,7 @@ const Toy = () => {
     <Box maxW='90vw'>
       <Box display='flex' overflowX='hidden' scrollBehavior='smooth' ref={carousel}>
         {data.map((item) => {
-          const {id, name, price, oldPrice, image} = item;
+          const {id, name, price, oldPrice, image, link} = item;
           return (
               <Box 
               bg='#fff'
@@ -71,6 +71,7 @@ const Toy = () => {
               borderRadius={4}
               flex='none'
               key={id}>
+                <Link href={link}>
                 <Box w='285px' h='285px'>
                   <Image
                   src={image} 
@@ -102,13 +103,18 @@ const Toy = () => {
                     textDecor='line-through'
                     flexGrow='1'
                     color= '#e81a5d'>{oldPrice}</Text>
+                    
                     <Text 
                     fontSize='1.2rem'
                     fontWeight='bold'
                     bg='#ff7e3b'
-                    marginTop='10px'>R$ {price}</Text>
+                    marginTop='10px'
+                    cursor={'pointer'}
+                    >R$ {price}</Text>
                   </Text>
                 </Box>
+                </Link>
+                
               </Box>
           );
         })}

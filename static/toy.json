@@ -4,7 +4,8 @@
     "name": "Big Kit Feirinha (BANCADA COM CESTINHA)" ,
     "price": 215.98,
     "oldPrice": 315.99,
-    "image": "./assets/1.jpg"
+    "image": "./assets/1.jpg",
+    "link": ""
   },
   {
     "id": "94313762",

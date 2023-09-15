@@ -1,13 +1,19 @@
-import { Box, Flex, Image, Link, Icon, base } from '@chakra-ui/react'
+import { Box, Flex, Image, Link, Icon, base, Drawer, DrawerOverlay, DrawerContent, DrawerCloseButton, DrawerHeader, DrawerBody, } from '@chakra-ui/react'
 import { AiOutlineHeart } from 'react-icons/ai';
 import { BsBag } from 'react-icons/bs';
-import React from 'react'
+import React, { useState } from 'react'
 import Mobile from '@/components/Mobile'
 
 // display={{base: 'none', md: 'flex'}} //
 
 
 const Header = () => {
+
+    const [isOpen, SetisOpen] = useState(false)
+
+    const toggleCart = () => {
+        SetisOpen(!isOpen);
+      };
 
   return (
     <>
@@ -57,7 +63,17 @@ const Header = () => {
             <Mobile />
             <Box display='flex' gap='2rem'>
                 <Icon as={AiOutlineHeart} boxSize={7} color="#fff" />
-                <Icon as={BsBag} boxSize={6} color="#fff" />
+                <Icon as={BsBag} boxSize={6} color="#fff" cursor='pointer' onClick={toggleCart} />
+                <Drawer placement="right" onClose={toggleCart} isOpen={isOpen}>
+                    <DrawerOverlay>
+                    <DrawerContent bg="#fff">
+                        <DrawerCloseButton/>
+                        <DrawerBody>
+                            
+                        </DrawerBody>
+                    </DrawerContent>
+                    </DrawerOverlay>
+                </Drawer>
             </Box>  
         </Flex>
     </Box>
