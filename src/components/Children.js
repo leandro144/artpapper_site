@@ -1,5 +1,5 @@
 import Header from '@/components/Header'
-import React, { useState, useEffect } from 'react'
+import { useEffect, useState} from 'react';
 import { 
     Flex, 
     Text, 
@@ -13,16 +13,16 @@ import {
   } 
   from '@chakra-ui/react'
 
-const children = () => {
-
-
-    const [data, setData] = useState([]);
+const Children = () => {
 
     useEffect(() => {
         fetch('https://salmon-bull-slip.cyclic.cloud/Toys')
           .then((response) => response.json())
           .then(setData);
       }, []);
+
+
+    const [data, setData] = useState([]);
 
   return (
     <>
@@ -78,4 +78,4 @@ const children = () => {
   )
 }
 
-export default children
+export default Children;
