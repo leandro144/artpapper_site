@@ -1,6 +1,6 @@
 import Header from '@/components/Header'
 import React from 'react'
-import { Text, Heading, Box,} from '@chakra-ui/react'
+import { Heading, Box,} from '@chakra-ui/react'
 import CardEletronic from '@/components/CardEletronic'
 import Footer from '@/components/Footer'
 

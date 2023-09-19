@@ -1,5 +1,6 @@
 import Header from '@/components/Header'
-import Children from '@/components/children'
+import Children from '@/components/Children'
+
 
 const toychildren = () => {
   return (
