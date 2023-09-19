@@ -1,23 +1,33 @@
-import { Box, Flex, CardBody, Text, Heading, Button, Card, Image, Link } from '@chakra-ui/react'
-import React, { useEffect, useState } from 'react'
-import CountdownTimer from './CountdownTimer';
+import Header from '@/components/Header'
+import React, { useState, useEffect } from 'react'
+import { 
+    Flex, 
+    Text, 
+    Heading,
+    Box,
+    Card,
+    Link,
+    CardBody,
+    Image,
+    Button
+  } 
+  from '@chakra-ui/react'
 
-const CardEletronic = () => {
+const children = () => {
+
 
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        fetch('https://json-server-s856.onrender.com/products')
+        fetch('https://salmon-bull-slip.cyclic.cloud/Toys')
           .then((response) => response.json())
           .then(setData);
       }, []);
 
   return (
     <>
-    <Box my='2rem' px='5%'> 
-     <Box>
-        <CountdownTimer />
-     </Box>
+        <Header />
+        <Box my='10rem' px='5%'> 
         <Box 
         w='100%' 
         py={8} 
@@ -64,9 +74,8 @@ const CardEletronic = () => {
         })}
         </Box>
     </Box>
-        
     </>
   )
 }
 
-export default CardEletronic
+export default children
