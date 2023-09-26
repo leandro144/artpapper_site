@@ -30,7 +30,7 @@ const Footer = () => {
                 <Text 
                 fontWeight='bold'
                 >
-                    11 5060-5060<br></br> de segunda à sextas-feiras: das 8h às 18:30h <br></br> e aos sábados: das 8h às 16h
+                    11 5060-5060<br></br> de segunda à sextas-feiras: das 8h às 18:30h <br></br> sábados: das 8h às 16h
                 </Text>
                 <Text 
                 border='1px solid #000'
