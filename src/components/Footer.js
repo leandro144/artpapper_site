@@ -30,7 +30,7 @@ const Footer = () => {
                 <Text 
                 fontWeight='bold'
                 >
-                    11 5060-5060<br></br> de segunda à sextas-feiras: das 8h às <br></br> 18:30h e aos sábados: das 8h às 16h
+                    11 5060-5060<br></br> de segunda à sextas-feiras: das 8h às 18:30h <br></br> e aos sábados: das 8h às 16h
                 </Text>
                 <Text 
                 border='1px solid #000'
@@ -89,7 +89,7 @@ const Footer = () => {
             </Box>
         </Flex>
         <Box as="footer" p={4} bg="#005D98" color='#fff' textAlign="center">
-            <Text>&copy;{new Date().getFullYear()} Leandro Castro. Todos os direitos reservados.</Text>
+            <Text>&copy;{new Date().getFullYear()} Criado e Desenvolvido por Leandro Castro. Todos os direitos reservados.</Text>
         </Box>
        
     </>
