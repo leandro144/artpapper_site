@@ -50,7 +50,7 @@ const CardEletronic = () => {
                     >
                         <Heading fontSize='1.5rem' >{name}</Heading>
                         <Text>{Title}</Text>
-                        <Text fontWeight="bold" color='blue.600' fontSize='1.5rem'>{price}</Text>
+                        <Text fontWeight="bold" color='blue.600' fontSize='1.5rem'>R$ {price}</Text>
                         <Text color='#00AD1D'>20% off</Text>
                         <Button colorScheme='blue' w='150px'>
                         Comprar agora

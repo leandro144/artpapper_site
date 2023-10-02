@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Image } from '@chakra-ui/react'
 
-// display={{base: 'none', md: 'flex'}} //
+// h={{base: '70vh', md: '100vh'}} //
 
 const Main = () => {
   return (
@@ -9,8 +9,8 @@ const Main = () => {
         <Box>
             <Image
              src='./assets/1RMV.PNG'
-             w='100%'
-             h={{base: '70vh', md: '100vh'}}
+             maxW='100%'
+             h='auto'
              pt='123px'
              alt='imagem' />
         </Box>
