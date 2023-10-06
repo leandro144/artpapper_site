@@ -45,7 +45,7 @@ const Cards = () => {
           gap='10px'
            >
             <Heading fontSize='1.5rem' >Iphone 14 Pro</Heading>
-            <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, laudantium?</Text>
+            <Text>Ultra-angular de 12 MP. Teleobjetiva de 2x de 12 MP. Teleobjetiva de 3x de 12 MP.</Text>
             <Text fontWeight="bold" color='blue.600' fontSize='1.5rem'>R$ 5,990</Text>
             <Text color='#00AD1D'>20% off</Text>
             <Button colorScheme='blue' w='150px'>
@@ -75,7 +75,7 @@ const Cards = () => {
           flexDir='column'
           gap='10px'>
             <Heading fontSize='1.5rem' >Apple Macbook Air</Heading>
-            <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, laudantium?</Text>
+            <Text>Apple Macbook Air (13 polegadas, 2020, Chip M1, 256 GB de SSD, 8 GB de RAM) </Text>
             <Text fontWeight="bold" color='blue.600' fontSize='1.5rem'>R$ 4,990</Text>
             <Text color='#00AD1D'>20% off</Text>
             <Button colorScheme='blue' w='150px'>
@@ -105,7 +105,7 @@ const Cards = () => {
            flexDir='column'
            gap='10px'>
             <Heading fontSize='1.5rem' >Samsung Galaxy S22</Heading>
-            <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, laudantium?</Text>
+            <Text>Smartphone Samsung Galaxy S22 Ultra 256GB Preto 5G 12GB RAM 6,8” Câm.</Text>
             <Text fontWeight="bold" color='blue.600' fontSize='1.5rem'>R$ 4,990</Text>
             <Text color='#00AD1D'>20% off</Text>
             <Button colorScheme='blue' w='150px'>
