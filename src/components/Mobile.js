@@ -43,10 +43,9 @@ const Mobile = () => {
                     alignItems='center'
                     gap='2rem'
                     >
-                        <Link fontSize='1.5rem'  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }} >Higiene</Link>
-                        <Link fontSize='1.5rem'  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Infantil</Link>
-                        <Link fontSize='1.5rem'  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Escritório e Papelaria</Link>
-                        <Link textAlign='center' fontSize='1.5rem'  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Embalagens e Descartáveis</Link>
+                      <Link href='/'  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }} >Higiene e Limpeza</Link>
+                      <Link href='/toychildren'  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Infantil</Link>
+                      <Link href='/eletronic'  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Eletrônicos</Link>
                     </Box>
                 </Flex>
             </DrawerBody>

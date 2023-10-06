@@ -76,7 +76,7 @@ const Cards = () => {
           gap='10px'>
             <Heading fontSize='1.5rem' >Apple Macbook Air</Heading>
             <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, laudantium?</Text>
-            <Text fontWeight="bold" color='blue.600' fontSize='1.5rem'>$ 4,990</Text>
+            <Text fontWeight="bold" color='blue.600' fontSize='1.5rem'>R$ 4,990</Text>
             <Text color='#00AD1D'>20% off</Text>
             <Button colorScheme='blue' w='150px'>
               Comprar agora
@@ -106,7 +106,7 @@ const Cards = () => {
            gap='10px'>
             <Heading fontSize='1.5rem' >Samsung Galaxy S22</Heading>
             <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, laudantium?</Text>
-            <Text fontWeight="bold" color='blue.600' fontSize='1.5rem'>$ 4,990</Text>
+            <Text fontWeight="bold" color='blue.600' fontSize='1.5rem'>R$ 4,990</Text>
             <Text color='#00AD1D'>20% off</Text>
             <Button colorScheme='blue' w='150px'>
               Comprar agora
