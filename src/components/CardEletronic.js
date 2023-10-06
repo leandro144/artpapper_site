@@ -26,7 +26,7 @@ const CardEletronic = () => {
         justifyContent='center'
         gap={16}>
             {data.map((item) => {
-                const {id, name, price, image, Title, link} = item;
+                const {id, name, price, image, Title, link, product} = item;
                 return(
             <Card 
             w='325px'
@@ -51,7 +51,7 @@ const CardEletronic = () => {
                         <Heading fontSize='1.5rem' >{name}</Heading>
                         <Text>{Title}</Text>
                         <Text fontWeight="bold" color='blue.600' fontSize='1.5rem'>R$ {price}</Text>
-                        <Text color='#00AD1D'>20% off</Text>
+                        <Text color='#00AD1D'>{product}</Text>
                         <Button colorScheme='blue' w='150px'>
                         Comprar agora
                         </Button>

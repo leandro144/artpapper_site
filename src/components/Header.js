@@ -1,5 +1,5 @@
 import { Box, Flex, Image, Link, Icon, base, Drawer, DrawerOverlay, DrawerContent, DrawerCloseButton, DrawerHeader, DrawerBody, } from '@chakra-ui/react'
-import { AiOutlineHeart } from 'react-icons/ai';
+import { BsWhatsapp } from 'react-icons/bs';
 import { BsBag } from 'react-icons/bs';
 import React, { useState } from 'react'
 import Mobile from '@/components/Mobile'
@@ -14,6 +14,11 @@ const Header = () => {
     const toggleCart = () => {
         SetisOpen(!isOpen);
       };
+
+    const whatsappNumber = '+55 11 98315-8385'; // Substitua pelo número de WhatsApp desejado
+    const whatsappMessage = 'Olá! Gostaria de fazer um orçamento.'; // Mensagem padrão (opcional)
+
+    const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
     <>
@@ -61,7 +66,8 @@ const Header = () => {
             </Box>
             <Mobile />
             <Box display='flex' gap='2rem'>
-                <Icon as={AiOutlineHeart} boxSize={7} color="#fff" />
+                <Link href={whatsappLink} target="_blank" rel="noopener noreferrer"><Icon as={BsWhatsapp} boxSize={7} color="#fff" cursor={'pointer'} /></Link>
+                
                 <Icon as={BsBag} boxSize={6} color="#fff" cursor='pointer' onClick={toggleCart} />
                 <Drawer placement="right" onClose={toggleCart} isOpen={isOpen}>
                     <DrawerOverlay>

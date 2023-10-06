@@ -10,6 +10,7 @@ import CardEletronic from '@/components/CardEletronic'
 const index = () => {
 
 
+
   return (
 
     <>

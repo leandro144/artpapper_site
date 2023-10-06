@@ -15,6 +15,7 @@
     "aos": "^2.3.4",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
+    "font-awesome": "^4.7.0",
     "framer-motion": "^10.16.1",
     "json-server": "^0.17.3",
     "next": "13.4.19",

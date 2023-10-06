@@ -1,9 +1,13 @@
 import React from 'react'
-import { Box, Image } from '@chakra-ui/react'
+import { Box, Image, } from '@chakra-ui/react'
+
 
 // h={{base: '70vh', md: '100vh'}} //
 
 const Main = () => {
+
+
+
   return (
     <>
         <Box>
