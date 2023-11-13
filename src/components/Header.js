@@ -60,7 +60,7 @@ const Header = () => {
             display={{base: 'none', md: 'flex'}}
             gap='2rem'
             marginLeft='40px'>
-                <Link href='/'  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }} >Higiene e Limpeza</Link>
+                <Link href='/clean'  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }} >Higiene e Limpeza</Link>
                 <Link href='/toychildren'  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Infantil</Link>
                 <Link href='/eletronic'  _hover={{ color: '#FF4F0D', textDecoration: "none", transition: '4s', fontWeight: 'bold' }}>Eletrônicos</Link>
             </Box>
