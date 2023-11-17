@@ -7,7 +7,7 @@ const CleanCards = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        fetch('https://json-server-s856.onrender.com/products')
+        fetch('https://json-clean.onrender.com/products_clear')
           .then((response) => response.json())
           .then(setData);
       }, []);
@@ -49,7 +49,7 @@ const CleanCards = () => {
                     >
                         <Heading fontSize='1.5rem' >{name}</Heading>
                         <Text>{Title}</Text>
-                        <Text fontWeight="bold" color='blue.600' fontSize='1.5rem'>R$ {price}</Text>
+                        <Text fontWeight="bold" color='blue.600' fontSize='1.5rem'> {price}</Text>
                         <Text color='#00AD1D'>{product}</Text>
                         <Button colorScheme='blue' w='150px'>
                         Comprar agora
