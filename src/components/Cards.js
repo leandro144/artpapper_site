@@ -97,19 +97,19 @@ const Cards = () => {
         bg= '#F5F5F5'
         borderRadius='1rem'
         >
-          <Image src='./assets/s22.png' w="250px" alt='imagem' />
+          <Image src='https://http2.mlstatic.com/D_NQ_NP_868529-MLB73019772953_112023-O.webp' w="250px" alt='imagem' />
         </Box>
         <Flex>
           <CardBody
            display='flex'
            flexDir='column'
            gap='10px'>
-            <Heading fontSize='1.5rem' >Samsung Galaxy S22</Heading>
-            <Text>Smartphone Samsung Galaxy S22 Ultra 256GB Preto 5G 12GB RAM 6,8” Câm.</Text>
-            <Text fontWeight="bold" color='blue.600' fontSize='1.5rem'>R$ 4,990</Text>
-            <Text color='#00AD1D'>Produto Indisponivel</Text>
+            <Heading fontSize='1.5rem' >Ventilador Ventisol</Heading>
+            <Text>Ventilador De Parede 60cm Preto Com Chave Seletora 110/220v</Text>
+            <Text fontWeight="bold" color='blue.600' fontSize='1.5rem'>R$ 364,99</Text>
+            <Text color='#00AD1D'>20% off</Text>
             <Button colorScheme='blue' w='150px'>
-              Comprar agora
+              <a href="">Comprar agora</a>
             </Button>
           </CardBody>
         </Flex>
